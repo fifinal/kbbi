@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/kuning"
+    tools:context=".UI.TentangActivity">
+    <TextView
+        android:id="@+id/tv_tentang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tentang KBBI-ku"
+        android:textColor="#fff"
+        android:paddingLeft="40dp"
+        android:paddingVertical="20dp"
+        android:textSize="32sp"
+        android:background="@color/abuabu"/>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_tentang">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:paddingHorizontal="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="@string/tentang_kbbi"
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="@string/tentang_database"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sumber : www.kbbi.com"
+        android:textColor="#fff"
+        android:textSize="32sp"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/btn_menu_utama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:text="Menu Utama"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:background="@color/textColor"/>
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyKBBI</string>
+    <string name="tentang_kbbi">Aplikasi Kamus Besar Bahasa Indonesia (KBBI) ini merupakan KBBI Daring (Dalam Jaringan / Online tidak resmi) yang dibuat untuk memudahkan pencarian, penggunaan dan pembacaan arti kata (lema/sub lema). Berbeda dengan beberapa situs web (website) sejenis, kami berusaha memberikan berbagai fitur lebih, seperti kecepatan akses, tampilan dengan berbagai warna pembeda untuk jenis kata, tampilan yang pas untuk segala perambah web baik komputer desktop, laptop maupun telepon pintar dan sebagainya. Fitur-fitur selengkapnya bisa dibaca dibagian Fitur KBBI Daring.</string>
+    <string name="tentang_database"> Database Utama KBBI Daring ini mengacu pada KBBI Daring Edisi III, sehingga isi (kata dan arti) tersebut merupakan Hak Cipta Badan Pengembangan dan Pembinaan Bahasa, Kemdikbud (dahulu Pusat Bahasa). Diluar data utama, kami berusaha menambah kata-kata baru yang akan diberi keterangan tambahan dibagian akhir arti atau definisi dengan "Definisi Eksternal". Semoga semakin menambah khazanah referensi pendidikan di Indonesia dan bisa memberikan manfaat yang luas</string>
+</resources>

@@ -1,0 +1,4 @@
+#Wed Nov 06 01:24:52 WIB 2019
+base.0=/media/fifin/32A894C3A894874F/back up laptop/MyKBBI/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

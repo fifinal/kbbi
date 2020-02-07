@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/textColor"
+    tools:context=".MainActivity">
+    <Button
+        android:id="@+id/btn_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/textColor"
+        android:text="Level : dasar"
+        android:textColor="@color/kuning"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:textSize="18sp"
+        style="@style/Widget.AppCompat.Button.Borderless"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:layout_width="217dp"
+            android:layout_height="238dp"
+            android:src="@drawable/kbbi" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="QUIZ KBBI"
+            android:textSize="38sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+        <Button
+            android:id="@+id/btn_mulai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MULAI"
+            android:background="@drawable/selector"
+            android:layout_marginTop="40dp"
+            android:textColor="#fff"
+            android:textSize="20sp"/>
+        <Button
+            android:id="@+id/btn_nilai_tertinggi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="nilai tertinggi"
+            android:background="@drawable/selector"
+            android:layout_marginTop="20dp"
+            android:textColor="#fff"
+            android:textSize="20sp"/>
+        <Button
+            android:id="@+id/btn_tentang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="tentang"
+            android:background="@drawable/selector"
+            android:layout_marginTop="20dp"
+            android:textColor="#fff"
+            android:textSize="20sp"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mykbbi">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/kbbi"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/kbbi"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".UI.SettingActivity"></activity>
+        <activity android:name=".UI.GameActivity" />
+        <activity android:name=".UI.InfoKataActivity" />
+        <activity android:name=".UI.NilaiTertinggiActivity" />
+        <activity android:name=".UI.TentangActivity" />
+        <activity android:name=".UI.HasilActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
